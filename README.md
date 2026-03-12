@@ -36,7 +36,15 @@ This portfolio serves as a platform to present my projects, technical skills, an
 Development of this project was assisted using **Cursor AI**.
 
 ---
+---
 
+## 🔗 Portfolio Link
+
+You can view the live portfolio here:
+
+👉 https://bit.ly/4uqLN1x
+
+---
 
 ---
 
