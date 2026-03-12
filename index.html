@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navyashri PA | Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Remix Icon (for modern icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    />
+
+    <!-- Swiper CSS (for projects slider) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Navyashri<span>PA</span></a>
+
+        <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+          <i class="ri-menu-line"></i>
+        </button>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="skills.html" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="projects.html" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav__actions">
+            <!-- Theme toggle: light / dark -->
+            <button
+              class="theme-toggle"
+              id="theme-button"
+              aria-label="Toggle light and dark theme"
+            >
+              <i class="ri-moon-line theme-toggle__icon" id="theme-icon"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ================= MAIN CONTENT (HOME) ================= -->
+    <main class="main">
+      <!-- ============= HERO SECTION ============= -->
+      <!-- Intro, tagline, main CTA, social links -->
+      <section class="hero section" id="home">
+        <div class="hero__bg-glow"></div>
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="hero__eyebrow">Hi, I'm</p>
+            <h1 class="hero__title">Navyashri <span>PA</span></h1>
+            <p class="hero__subtitle">Software Developer | Data Enthusiast</p>
+            <p class="hero__tagline">
+              “Fresh Minds. Innovative Code. Future-Ready.”
+            </p>
+
+            <p class="hero__description">
+              Electronics and Communication Engineering graduate exploring
+              software development, data science, and modern technologies
+              through clean code and meaningful projects.
+            </p>
+
+            <div class="hero__buttons">
+              <a href="projects.html" class="btn btn--primary">
+                <span>View Projects</span>
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+              <a
+                href="contact.html#resume"
+                class="btn btn--ghost"
+              >
+                <span>Download Resume</span>
+                <i class="ri-download-line"></i>
+              </a>
+            </div>
+
+            <div class="hero__socials">
+              <a
+                href="https://github.com/Navyashri-PA"
+                target="_blank"
+                rel="noreferrer"
+                class="hero__social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noreferrer"
+                class="hero__social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+            </div>
+
+            <div class="hero__scroll">
+              <a href="about.html" class="hero__scroll-link">
+                <span>Explore more about me</span>
+                <i class="ri-arrow-right-s-line"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Reusing the idea of your video/visual, but simplified into a clean hero card -->
+          <div class="hero__visual">
+            <div class="hero__card">
+              <div class="hero__badge">
+                <i class="ri-sparkling-fill"></i>
+                <span>Fresher Engineer</span>
+              </div>
+              <p class="hero__quote">
+                Exploring Software Development, Data Analysis, and Modern
+                Technologies with curiosity and creativity.
+              </p>
+              <ul class="hero__meta">
+                <li>
+                  <i class="ri-cpu-line"></i>
+                  <span>Electronics & Communication Engineering</span>
+                </li>
+                <li>
+                  <i class="ri-code-s-slash-line"></i>
+                  <span>Python, C, SQL, HTML, CSS, JavaScript</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Other sections live on separate pages (About, Skills, Projects, Contact) -->
+    </main>
+
+    <!-- ============= FOOTER ============= -->
+    <!-- Simple footer with copyright -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__text">
+          © <span id="year"></span> Navyashri PA. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- ScrollReveal (for scroll animations) -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Swiper JS (for projects slider) -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

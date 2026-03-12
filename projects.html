@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Navyashri PA</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Navyashri<span>PA</span></a>
+
+        <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+          <i class="ri-menu-line"></i>
+        </button>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="skills.html" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="projects.html" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav__actions">
+            <button
+              class="theme-toggle"
+              id="theme-button"
+              aria-label="Toggle light and dark theme"
+            >
+              <i class="ri-moon-line theme-toggle__icon" id="theme-icon"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ================= PROJECTS PAGE CONTENT ================= -->
+    <main class="main">
+      <section class="section" id="projects">
+        <div class="container section__inner">
+          <div class="section__header">
+            <p class="section__eyebrow">Featured work</p>
+            <h2 class="section__title">Projects</h2>
+            <p class="section__subtitle">
+              A snapshot of academic and personal projects that apply deep
+              learning, IoT, and machine learning to real-world problems.
+            </p>
+          </div>
+
+          <div class="projects__wrapper">
+            <div class="swiper projects__slider">
+              <div class="swiper-wrapper">
+                <!-- Project 1 -->
+                <article class="project-card swiper-slide">
+                  <div class="project-card__badge">
+                    <i class="ri-brain-line"></i>
+                    <span>Deep Learning</span>
+                  </div>
+                  <h3 class="project-card__title">
+                    Sheep Breed Classification using VGG16 and CBAM
+                  </h3>
+                  <p class="project-card__description">
+                    Deep learning model built with TensorFlow and Keras to
+                    classify different sheep breeds using VGG16 architecture
+                    enhanced with CBAM (Convolutional Block Attention Module)
+                    for better feature focus.
+                  </p>
+                  <ul class="project-card__meta">
+                    <li>TensorFlow</li>
+                    <li>Keras</li>
+                    <li>CBAM</li>
+                  </ul>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card swiper-slide">
+                  <div class="project-card__badge">
+                    <i class="ri-pulse-line"></i>
+                    <span>IoT & Health</span>
+                  </div>
+                  <h3 class="project-card__title">
+                    Human Health Monitoring System
+                  </h3>
+                  <p class="project-card__description">
+                    IoT-based system using NodeMCU, LM35, MAX30100, GSM module,
+                    and ThingSpeak to remotely monitor body temperature and
+                    pulse rate, sending alerts and visualizing data on the
+                    cloud.
+                  </p>
+                  <ul class="project-card__meta">
+                    <li>NodeMCU</li>
+                    <li>LM35</li>
+                    <li>MAX30100</li>
+                    <li>ThingSpeak</li>
+                  </ul>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card swiper-slide">
+                  <div class="project-card__badge">
+                    <i class="ri-bank-card-line"></i>
+                    <span>Machine Learning</span>
+                  </div>
+                  <h3 class="project-card__title">Loan Price Prediction</h3>
+                  <p class="project-card__description">
+                    Machine learning model that predicts loan approval using
+                    regression algorithms and key applicant features to support
+                    faster and more informed decision-making.
+                  </p>
+                  <ul class="project-card__meta">
+                    <li>Python</li>
+                    <li>Regression</li>
+                    <li>Data Preprocessing</li>
+                  </ul>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card swiper-slide">
+                  <div class="project-card__badge">
+                    <i class="ri-team-line"></i>
+                    <span>Analytics Dashboard</span>
+                  </div>
+                  <h3 class="project-card__title">
+                    HR Analysis Dashboard
+                  </h3>
+                  <p class="project-card__description">
+                    Created an interactive HR dashboard to track key workforce
+                    metrics and support quick, data-driven insights.
+                  </p>
+                  <ul class="project-card__meta">
+                    <li>Power BI</li>
+                    <li>Excel</li>
+                    <li>Dashboarding</li>
+                    <li>Data Cleaning</li>
+                  </ul>
+                  <ul class="project-card__bullets">
+                    <li>
+                      Created an interactive HR dashboard to track key metrics
+                      like salary, experience, gender distribution, and employee
+                      count.
+                    </li>
+                    <li>
+                      Used Excel to clean data, apply formulas, and build clear
+                      visual charts for easy analysis.
+                    </li>
+                    <li>
+                      Added slicers and filters (age, experience, country,
+                      salary band) to view customized insights.
+                    </li>
+                    <li>
+                      Helped HR teams understand trends through visuals such as
+                      monthly/yearly employee count, salary comparisons, and
+                      location-based maps.
+                    </li>
+                  </ul>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card swiper-slide">
+                  <div class="project-card__badge">
+                    <i class="ri-line-chart-line"></i>
+                    <span>Analytics Dashboard</span>
+                  </div>
+                  <h3 class="project-card__title">
+                    Sales Analysis Dashboard
+                  </h3>
+                  <p class="project-card__description">
+                    Developed an interactive dashboard to visualize revenue,
+                    profit, item performance, and outlet metrics across regions.
+                  </p>
+                  <ul class="project-card__meta">
+                    <li>Advanced Excel</li>
+                    <li>Power BI</li>
+                    <li>Pivot Tables</li>
+                    <li>SQL</li>
+                  </ul>
+                  <ul class="project-card__bullets">
+                    <li>
+                      Visualized performance with dynamic filters across
+                      regions and outlets.
+                    </li>
+                    <li>
+                      Used Pivot Tables, VLOOKUP/INDEX-MATCH, and Conditional
+                      Formatting to clean, organize, and streamline workflows.
+                    </li>
+                    <li>
+                      Extracted and processed SQL data to analyze sales
+                      channels, product categories, customer behavior, and
+                      top-performing regions.
+                    </li>
+                    <li>
+                      Transformed raw datasets into actionable insights for
+                      inventory optimization, tracking, and decisions.
+                    </li>
+                  </ul>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card swiper-slide">
+                  <div class="project-card__badge">
+                    <i class="ri-global-line"></i>
+                    <span>Analytics Dashboard</span>
+                  </div>
+                  <h3 class="project-card__title">
+                    New Sales Analysis Dashboard
+                  </h3>
+                  <p class="project-card__description">
+                    Created an interactive sales dashboard to explore performance
+                    across countries, categories, and customer groups.
+                  </p>
+                  <ul class="project-card__meta">
+                    <li>Power BI</li>
+                    <li>SQL Server</li>
+                    <li>DAX</li>
+                    <li>Data Modeling</li>
+                  </ul>
+                  <ul class="project-card__bullets">
+                    <li>
+                      Visualized key insights like monthly trends, revenue by
+                      country, customer performance, profit margin, and order
+                      volume.
+                    </li>
+                    <li>
+                      Added slicers and filters for order type, year, country,
+                      and product category to make exploration easy.
+                    </li>
+                    <li>
+                      Used Pivot Tables, data modeling, and DAX to turn raw data
+                      into clear insights for better sales decisions.
+                    </li>
+                    <li>
+                      Created an interactive Sales Dashboard using Excel/Power
+                      BI to analyze sales across countries, categories, and
+                      customer groups.
+                    </li>
+                  </ul>
+                </article>
+
+                <!-- Project 7 -->
+                <article class="project-card swiper-slide">
+                  <div class="project-card__badge">
+                    <i class="ri-dashboard-3-line"></i>
+                    <span>Analytics Dashboard</span>
+                  </div>
+                  <h3 class="project-card__title">
+                    R Analysis Dashboard
+                  </h3>
+                  <p class="project-card__description">
+                    Interactive dashboard built to analyze and present key
+                    workforce metrics in a clear, decision-friendly format.
+                  </p>
+                  <ul class="project-card__meta">
+                    <li>Power BI</li>
+                    <li>Excel</li>
+                    <li>Slicers</li>
+                    <li>Charts</li>
+                  </ul>
+                  <ul class="project-card__bullets">
+                    <li>
+                      Created an interactive HR dashboard to track key metrics
+                      like salary, experience, gender distribution, and employee
+                      count.
+                    </li>
+                    <li>
+                      Used Excel to clean data, apply formulas, and build clear
+                      visual charts for easy analysis.
+                    </li>
+                    <li>
+                      Added slicers and filters (age, experience, country,
+                      salary band) to help users view customized insights.
+                    </li>
+                    <li>
+                      Helped HR teams understand trends through visuals such as
+                      monthly/yearly employee count, salary comparisons, and
+                      location-based maps.
+                    </li>
+                  </ul>
+                </article>
+              </div>
+
+              <div class="swiper-button-prev projects__nav-btn">
+                <i class="ri-arrow-left-line"></i>
+              </div>
+              <div class="swiper-button-next projects__nav-btn">
+                <i class="ri-arrow-right-line"></i>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__text">
+          © <span id="year"></span> Navyashri PA. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+

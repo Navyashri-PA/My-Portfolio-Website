@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact & Resume | Navyashri PA</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Navyashri<span>PA</span></a>
+
+        <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+          <i class="ri-menu-line"></i>
+        </button>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="skills.html" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="projects.html" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav__actions">
+            <button
+              class="theme-toggle"
+              id="theme-button"
+              aria-label="Toggle light and dark theme"
+            >
+              <i class="ri-moon-line theme-toggle__icon" id="theme-icon"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ================= CONTACT & RESUME PAGE CONTENT ================= -->
+    <main class="main">
+      <!-- Resume call-to-action -->
+      <section class="section section--accent" id="resume">
+        <div class="container resume__inner">
+          <div class="resume__content">
+            <p class="section__eyebrow">My journey so far</p>
+            <h2 class="section__title">Resume</h2>
+            <p class="section__subtitle">
+              Explore my education, projects, and skills in a single document
+              designed for recruiters and collaborators.
+            </p>
+            <div class="resume__actions">
+              <a
+                href="https://drive.google.com/file/d/1oFL_R8qDNDtGFJAHhnM_auHnpVrG9glf/view?usp=drive_link"
+                class="btn btn--ghost"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>View Resume</span>
+                <i class="ri-external-link-line"></i>
+              </a>
+              <a
+                href="https://drive.google.com/uc?export=download&id=1oFL_R8qDNDtGFJAHhnM_auHnpVrG9glf"
+                class="btn btn--primary"
+                download
+              >
+                <span>Download Resume</span>
+                <i class="ri-download-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact details -->
+      <section class="section" id="contact">
+        <div class="container section__inner">
+          <div class="section__header">
+            <p class="section__eyebrow">Let’s connect</p>
+            <h2 class="section__title">Contact</h2>
+            <p class="section__subtitle">
+              Open to internships, full-time roles, and exciting collaborations
+              in software development and data-driven projects.
+            </p>
+          </div>
+
+          <div class="contact__grid">
+            <div class="contact__card">
+              <i class="ri-mail-line"></i>
+              <h3>Email</h3>
+              <a href="mailto:navyashrinavya23@gmail.com"
+                >navyashrinavya23@gmail.com</a
+              >
+            </div>
+
+            <div class="contact__card">
+              <i class="ri-phone-line"></i>
+              <h3>Phone</h3>
+              <a href="tel:+919380274682">+91 93802 74682</a>
+            </div>
+
+            <div class="contact__card">
+              <i class="ri-linkedin-box-line"></i>
+              <h3>LinkedIn</h3>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                linkedin.com/in/navyashri-pa
+              </a>
+            </div>
+
+            <div class="contact__card">
+              <i class="ri-github-line"></i>
+              <h3>GitHub</h3>
+              <a
+                href="https://github.com/Navyashri-PA"
+                target="_blank"
+                rel="noreferrer"
+              >
+                github.com/Navyashri-PA
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__text">
+          © <span id="year"></span> Navyashri PA. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
